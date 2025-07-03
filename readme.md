@@ -45,6 +45,15 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
 
    Aqui você pode testar todos os endpoints da API de forma interativa.
 
+## Autenticando no Google Cloud
+
+```sh
+gcloud auth login
+gcloud config set project PROJECT_ID
+gcloud run deploy --port=8000
+
+```
+
 ---
 
 ## Estrutura do Projeto
@@ -60,5 +69,13 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
 
 - O banco de dados SQLite será criado automaticamente como `escola.db` na primeira execução.
 - Para reiniciar o banco, basta apagar o arquivo `escola.db` (isso apagará todos os dados).
+
+---
+
+# API de Gestão Escolar
+
+🚀 Projeto da Imersão Cloud & DevOps, onde subimos uma API em Python usando Docker e Google Cloud Run.
+
+🔗 Acesse a documentação da API: [https://api-984859023665.southamerica-east1.run.app/docs](https://api-984859023665.southamerica-east1.run.app/docs)
 
 ---
